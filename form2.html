@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        form{
+            border: solid  2px transparent;
+            background-color: antiquewhite;
+            padding: 2rem;
+            width: 20rem;
+            box-shadow: 0em 0em 1em;
+            margin-left: 16em;
+            }
+        p{
+            margin-left: 8rem;
+        }
+        p::before
+            {
+            content:"";
+            height: 1px;
+            width: 7rem;
+            background: #000;
+            position: absolute;
+            top: 47%;
+            left: 0;
+            margin-left: 18rem;
+            }
+
+         p::after
+           { 
+            content:"";
+            height: 1px;
+            width: 7rem;
+            background: #000;;
+            position: absolute;
+            top: 47%;
+            right: 0;
+            margin-right: 28rem;
+           }
+
+           .btn{
+            border-radius: 8rem;
+            padding: 4px;
+            width: 6rem;
+            border: solid transparent;
+            background-color: blue;
+            margin-left:45px;
+           }
+
+           .iyyah{
+            border-radius: 8rem;
+            padding: 4px;
+            background-color: whitesmoke;
+            margin-left: 48px;
+            width: 14rem;
+           }
+        
+        
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Sign In</h1>
+        <p1>New User? <a href="create an account">Create an account</a></p1>
+        <br><br>
+        <input type="text" placeholder="Email Address">
+        <br><br>
+        <input type="text" placeholder="Password">
+        <br><br>
+        <a href="Forgot password">Forgot password</a>
+        <input type="button" value="Sign In" class="btn">
+        <br>
+        <p>Or</p>
+     <br>
+     
+     <label for="Sign in with google"></label>
+     <input type="button" value="Sign in with google" class="iyyah">
+     <br>
+     <label for="Sign in with facebook"></label>
+     <br>
+     <input type="button" value="Sign in with facebook" class="iyyah">
+     <br>
+     <label for="Sign in with apple"></label>
+     <br>
+     <input type="button" value="Sign in with apple" class="iyyah">
+    </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        body {
+            background-color: #f2f4f9;
+        }
+        .table{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            width: 20rem;
+            position: absolute;
+            left: 28rem;
+            top: 10rem;
+
+        }
+
+        .head{
+            position: absolute;
+            bottom: 14rem;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .input{
+            background-color:#ffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 15rem;
+            height: 13rem;
+        }
+        .email_div>input{
+            padding: 5px;
+            border: solid 1px black;
+            border-radius: 3px;
+            width: 10rem;
+        }
+
+        .pass>input{
+            padding: 5px;
+            border: solid 1px black;
+            border-radius: 3px;
+            width: 10rem;
+            margin: top 0;
+            line-height: 0px;
+        }
+        .btn{
+            background-color: aquamarine;
+            width: 11rem;
+            border-radius: 8px;
+            border-width:0px;
+            height:30px;
+
+        }  
+        
+    </style>
+</head>
+<body>
+    <div class="table">
+        <span class="head">Login</span>
+        <br>
+        <br>
+        <form action="" class="input">
+
+            <div class="email_div">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="Email" id="email" placeholder="gabriel@gmail.com" required>
+            </div>
+
+            <br>
+            
+
+            <div class="pass">
+                <label for="password">Password</label>
+                <br>
+                <input type="password" id="password" name="Password">
+            </div>
+            
+            <br>
+
+            <button class="btn">Log in</button>
+
+        </form>
+    </div>
+</body>
+</html>

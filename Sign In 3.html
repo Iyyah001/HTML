@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(250, 245, 245);
+        }
+        form{
+            border: 2px solid transparent;
+            background-color: white;
+            padding: 2rem;
+            width: 25rem;
+            box-shadow: 0em 0em 1em grey;
+            margin-left: 16rem;
+        }
+        .noel{
+            border-radius: 2rem;
+            padding: 10px;
+            width: 23rem;
+            border: solid transparent;
+            background-color: rgb(245, 235, 235);
+        }
+        .btn{
+            width: 10rem;
+           padding: 10px;
+           border-radius: 2rem;
+           border: solid transparent;
+           background-color: blue;
+           margin-left: 118px;
+        }
+        .noel1{
+            border-radius: 2rem;
+            padding: 10px;
+            width: 25rem;
+            background-color: white; 
+        }
+        .pp{
+            text-align: center;
+            position: relative;
+
+
+        }
+        .pp:before{
+            content: "";
+            height: 1px;
+            width: 11rem;
+            background: #000;
+            position: absolute;
+            top: 50%;
+            left: 0;
+        }
+        .pp:after{
+            content: "";
+            height: 1px;
+            width: 11rem;
+            background: #000;
+            position: absolute;
+            top: 50%;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1><b>Sign In</b></h1>
+        <p>New user?<a href="www.googleaccount.com">Create an account</a></p>
+        <input class="noel" type="Email" placeholder="Email address"><br><br>
+        <input class="noel" type="Password" placeholder="Password"><br><br><br>
+        <a href="Forgot password">Forgot password</a>
+        <input class="btn" type="button" value="Sign In"><br><br>
+        <p class="pp">Or</p>
+        <br>
+        <input class="noel1" type="button" value="Sign In With Google" ><br><br>
+        <input class="noel1" type="button" value="Sign In With Facebook"><br><br>
+        <input class="noel1" type="button" value="Sign In With Apple" >
+
+
+    </form>
+</body>
+</html>
